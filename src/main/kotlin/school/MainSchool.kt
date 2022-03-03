@@ -14,7 +14,6 @@ fun main() {
  * Местро постройки находится по медиане, но нужна быстрая и сортировка массива
  */
 fun school(n: Int, coord : IntArray): Int {
-    coord.sort()
     val medianIndex = n / 2
     return coord[medianIndex]
 }
